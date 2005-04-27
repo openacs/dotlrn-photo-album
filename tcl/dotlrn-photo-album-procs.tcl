@@ -28,7 +28,7 @@ ad_proc -public dotlrn_photo_album::my_package_key {} {
 ad_proc -public dotlrn_photo_album::get_pretty_name {} {
     returns the pretty name
 } {
-    return "Photo Album"
+    return "#photo-album-portlet.Photo_Album#"
 }
 
 ad_proc -public dotlrn_photo_album::add_applet {} {
